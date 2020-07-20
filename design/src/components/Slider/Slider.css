@@ -1,0 +1,39 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.project-article__name::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    display: block;
+    margin: 10px 0 10px 0;
+    background-color: #d9b256;
+}
+.slider-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5% 0 5% 0;
+}
+.slider-block__wrapper {
+    margin-bottom: 20px;
+}
+.project-article{
+    padding: 5% 0 5% 0;
+    
+}
+.project-article__name {
+    color: #d9b256;
+
+}
+.project-article__name, .project-article__square {
+    padding: 10px 0 10px 0;
+}
+
+@media (min-width:768px) {
+.slider-wrapper{
+    display: flex;
+}
+.slider-block__wrapper, .project-article {
+    width: 40%;
+    margin: 0 auto;
+}
+}
+

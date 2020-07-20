@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+}
+.logo {
+  margin: 5px 5px 5px 5px;
+  display: flex;
+  width: 70%;
+  height: 100px;
+  position: absolute;
+}
+
+.logo_img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#menu {
+  width: 35px;
+  height: 30px;
+  margin: 30px 30px 30px 85%;
+  cursor: pointer;
+}
+
+#menu-bars {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #d9b256;
+  ;
+  display: block;
+  border-radius: 5px;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav .list-item a {
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.list-item {
+  margin: 0 auto;
+}
+
+
+
+.nav .list-item {
+  list-style: none;
+  padding: 16px 0;
+  box-sizing: border-box;
+}
+.nav {
+  margin: 0;
+  display: none;
+  box-sizing: border-box;
+}
+
+#menu-bar {
+  width: 100%;
+  display: flex;
+}
+
+.change .bar {
+  background-color: black;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+.change {
+  display: block;
+  text-align: center;
+}
+.social-list__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  list-style: none;
+}
+/* a {
+width: 100px;  
+} */
+.list-item {
+  width: 20%;  
+}
+.nav .list-item a:hover {
+    font-weight: bold;
+  }
+ 
+@media (min-width: 768px) {
+    .logo_img {
+        padding-left: 4%;
+    }}
+    .social-list__top {
+        padding-bottom: 5%;
+    }
+    @media(min-width: 960px) {
+        header {
+            width: 80%;
+            margin: 0 auto;
+            align-items: center;
+
+        }
+        .logo_img {
+          padding: 0;
+        }
+        #menu {
+            display: none;
+        }
+    
+        .nav {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+       
+        .logo {
+            position: sticky;
+            width: 25%;
+            padding: 0;
+        }
+    
+        .social-list__top {
+            padding: 0 0 0 0;
+        }
+        
+    } 
+
+/*end of header */

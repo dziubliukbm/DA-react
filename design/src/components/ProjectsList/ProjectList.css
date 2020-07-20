@@ -1,0 +1,30 @@
+.projects-list {
+    padding: 10% 0 10% 10%;
+    list-style: none;
+    font-weight: bold;
+}
+
+.projects-list__item {
+    padding: 12px 10px 12px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    .projects-list {
+        display: flex;
+        padding: 20px 10px 20px 10px;
+        font-size: 16px;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 960px) {
+    .projects-variety {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

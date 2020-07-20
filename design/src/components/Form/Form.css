@@ -1,0 +1,74 @@
+.form-wrapper {
+    padding: 0 5% 0 5%;
+    text-align: center;
+}
+
+.form-article {
+    padding: 25% 0 25% 0;
+    font-size: 32px;
+    text-align: left;
+}
+
+.contact-input {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.contact-submit {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    color: black;
+    border: 2px solid #d9b256;
+    padding: 11px 15px 11px 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.contact-submit:hover {
+    background-color: #d9b256;
+    color: white;
+}
+
+@media (min-width: 768px) { 
+    .form-article {
+        padding: 10% 5% 5% 5%;
+        text-align: center;
+    }
+
+    .contact-submit {
+        width: 30%;
+        margin: 30px 0 30px 0;
+    }
+}
+
+@media(min-width: 960px) { 
+    .form-wrapper {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .form-article {
+        text-align: left;
+        padding: 15% 0 0 0;
+        width: 50%;
+    }
+
+    #contact-form {
+        padding-top: 5%;
+        width: 50%;
+    }
+
+    .contact-submit {
+        width: 70%;
+    }
+}

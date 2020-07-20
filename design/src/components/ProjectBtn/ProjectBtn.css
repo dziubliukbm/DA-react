@@ -1,0 +1,24 @@
+.ProjectBtn {
+    background-color: transparent;
+    line-height: 1.5;
+    font-size: 18px;
+    color:  #d9b256;
+    border-radius: 50px;
+    border: 2px solid #d9b256;
+    padding: 11px 15px 11px 15px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    transition: 0.3s;
+}
+.ProjectBtn:hover {
+    cursor: pointer;
+    background-color: #d9b256;
+    color: #fff;
+}
+@media (min-width: 768px) {
+.ProjectBtn {
+    width: 40%;
+}
+
+}
